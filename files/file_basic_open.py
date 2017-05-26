@@ -1,0 +1,8 @@
+f= open("sample1.txt","w+")
+f.write("swathi\n")
+f.write("kavi\n")
+f.write("karthi\n")
+f.seek(0) 
+print("READING FROM FILE ")
+print(f.read())
+f.close()
